@@ -1,0 +1,45 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/pexels-cottonbro.png);
+    background-size: cover;   
+    background-repeat: no-repeat;
+}
+
+.container  .container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .container-text .logo{
+ 
+    position: absolute;
+    top:60%;
+    z-index: 4;    
+    max-width: 75%;
+    max-height:75%;  
+    background-size: cover;   
+  
+}
+
+
+
+
+
+
+
+.container .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;    
+   
+}
+.container .navbar img{
+    border: solid 4px red;
+    position: absolute;
+    z-index: 3;   
+}
+
