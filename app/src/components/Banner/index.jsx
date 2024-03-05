@@ -8,12 +8,34 @@ export default function name(props) {
         <header className='container'>
             <section className='container-text'>
                 <nav className='navbar'>
-                    <a>CTT$©</a>
-                    
-                    
-                  <Menu>Menu</Menu>
+                  <div className='title'>
+                    <a>CTTN<span>©</span></a> 
+                  </div>
+                  <Menu></Menu>
                 </nav>
                 <img  data-aos="fade-up" className='logo'  src= {logo}></img>
+                <div className='table-selection'>
+                    <div className='seletor' >
+                        <span>CTTN</span> 
+                        <span>©</span>
+                        <span>[2023]</span> 
+                    </div>
+                    <div  className='seletor'>
+                        <span>CTTN</span> 
+                        <span>©</span>
+                        <span>[2023]</span> 
+                    </div>
+                    <div  className='seletor'>
+                        <span>CTTN</span> 
+                        <span>©</span>
+                        <span>[2023]</span> 
+                    </div>
+                    <div  className='seletor'>
+                        <span>CTTN</span> 
+                        <span>©</span>
+                        <span>[2023]</span> 
+                    </div>
+                </div>
             </section>
            
  

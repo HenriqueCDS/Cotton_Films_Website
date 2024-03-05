@@ -1,7 +1,7 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: 'Satoshi';
+  
+ 
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -38,6 +38,6 @@ h1 {
   
 @font-face {
   font-family: 'Satoshi';
-  src: local('Satoshi'), url('../Fonts/OTF/Satoshi-Medium.otf') format('Satoshi');
+  src: local('Satoshi'), url('../Fonts/WEB/fonts/Satoshi-Regular.woff') format('woff');
 }
 
