@@ -1,4 +1,6 @@
 import Banner from './components/Banner/index';
+import AboutText from './components/AboutText/index';
+import Galery from './components/Galery/index';
 
 function App() {
   
@@ -6,6 +8,9 @@ function App() {
   return (
     <>
       <Banner />
+      <AboutText />
+      <Galery />
+    
     </>
   )
 }

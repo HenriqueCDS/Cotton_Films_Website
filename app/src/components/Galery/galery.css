@@ -1,0 +1,20 @@
+.galery .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.galery .top .image-logo{
+    width: 100%;
+    max-width:31.25rem;
+
+}
+
+.galery .carrousel{
+    display: flex;
+}
+
+.galery .carrousel .image-carrousel{
+    width: 100%;
+    max-width:28.22375rem;
+    height: 34.875rem;
+}

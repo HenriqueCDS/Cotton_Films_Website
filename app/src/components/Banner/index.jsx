@@ -7,13 +7,16 @@ export default function name(props) {
     return(
         <header className='container'>
             <section className='container-text'>
+                
                 <nav className='navbar'>
                   <div className='title'>
                     <a>CTTN<span>©</span></a> 
                   </div>
                   <Menu></Menu>
                 </nav>
+                
                 <img  data-aos="fade-up" className='logo'  src= {logo}></img>
+                
                 <div className='table-selection'>
                     <div className='seletor' >
                         <span>CTTN</span> 

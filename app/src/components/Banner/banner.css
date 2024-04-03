@@ -17,7 +17,7 @@
     align-items: center;
 }
 .container .container-text .logo{
- 
+    margin: 1rem;
     position: absolute;
     bottom:20%;
     z-index: 4;    
