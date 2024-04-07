@@ -31,16 +31,25 @@
 
 .image{
     width: 100%;
-    max-width: 452px;
+    max-width: 28.25rem;
    
  }
 
 
- @media(max-width: 991px) {
+ @media(max-width: 400px) {
+    .group{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+        
+    }
+    
     .group .text{
-        width: 100%;
-        max-width: 50.75rem;
-        margin-right: 1rem;
+        width: 100rem;
+        max-width: 10rem;
+        margin-right: 0rem;
+
         
     }
     .group .text p{
@@ -57,8 +66,10 @@
     
     .image{
         width: 100%;
-      
+        max-width: 10rem;
        
      }
     
+
+     
 }
