@@ -19,11 +19,10 @@ export default function Galery() {
     return (
         <section className="galery">
             <div className="grid">
-                <div className="top">
+            <div className="top">
                     <div className="image-logo">
                         <img src={logo} />
                     </div>
-                    
                     <div className="buttons">
                         <button onClick= {() => swiper.slidePrev()}> <img src={buttonleft} /></button>
                     </div>

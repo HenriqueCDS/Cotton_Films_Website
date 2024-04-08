@@ -69,6 +69,6 @@
 @media(max-width: 991px) { 
     .container{
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }
