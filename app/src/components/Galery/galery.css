@@ -72,3 +72,18 @@
         height:auto;
     }
 }
+@media(max-width:400px) { 
+    .galery .top .image-logo img{
+        height:4rem;
+       
+      }
+    .swiper {
+        width:100vw;
+        height: 100%;
+    }
+    .galery .carrousel .image-carrousel{
+        width: 100%;
+        max-width:auto;
+        height:auto;
+    }
+}

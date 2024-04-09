@@ -38,40 +38,35 @@
  }
 
 
- @media(max-width: 400px) {
+ @media(max-width: 991px) {
     .group{
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-    
-        
+     align-items: center;
     }
-    
-    .group .text{
-        width: 100rem;
-        max-width: 10rem;
-        margin-right: 0rem;
 
+    .group .text{
+        width: 100%;
+        max-width: 40rem;
+        margin-right: 1rem;
         
     }
+  
     .group .text p{
-        font-size: rem;
+        font-size: 1rem;
         line-height: 100%;
         letter-spacing: -4%;
         font-weight: 400;
-        text-indent:4rem
+       
     
     }
     .group .text .p span{
         color: #4F4F4F;
     }
-    
     .image{
         width: 100%;
-        max-width: 10rem;
+        max-width: 25rem;
+       
        
      }
     
-
      
 }

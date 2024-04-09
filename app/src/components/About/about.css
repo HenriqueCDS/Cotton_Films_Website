@@ -69,24 +69,19 @@
 @media(max-width: 800px) {
     .about{
         grid-template-columns:60% 40%;
-  
     }
     .about .about-image{
         position: relative;
         height: 100vh;
         width: 100%;
-        background-image: url(../../assets/aboutBannerImg.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    
+       
     }
     .about .about-image .textbar-span{
         left:9rem;
         top:3rem
     }
     .about .about-text .about-img{
-        left: 20rem;
+        left: 55%;
         height: 8rem;
         width: 8rem;
     
@@ -101,9 +96,35 @@
 
   
      .about .about-text .text{
-      
          width:10rem;
-       
          font-size: 0.8rem;
      }
+}
+@media(max-width: 400px) {
+
+    .about{
+        grid-template-columns:50% 50%;
+    }
+    .about .about-text .about-img{
+        left: 42%;
+        height: 8rem;
+        width: 8rem;
+    }
+  
+    .about .about-image{
+        
+        height: 100vh;
+        width: 100%;
+       
+    }
+    .about .about-image .textbar-span{
+        left:6rem;
+        top:3rem
+    }
+    .about .about-text .text{
+        width:10rem;
+        font-size: 0.8rem;
+        text-align: left;
+        
+    }
 }
