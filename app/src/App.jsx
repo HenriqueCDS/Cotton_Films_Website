@@ -5,6 +5,10 @@ import ImageBanner from './components/ImageBanner';
 import Services from './components/Services';
 import About from './components/About';
 
+import TeamOur from './components/TeamOur';
+
+
+
 
 function App() {
   
@@ -17,7 +21,8 @@ function App() {
       <ImageBanner /> 
       <Services />
       <About />
-    
+      <TeamOur />
+      
     </>
   )
 }

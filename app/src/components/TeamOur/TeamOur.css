@@ -1,0 +1,31 @@
+.our-team {
+    padding-top: 4.9375rem;
+}
+.cards-team{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 8rem;
+}
+.cards-team .card .card-text{
+    display: flex;
+    gap: 1rem;
+    font-size: .875rem;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-family:  Helvetica, sans-serif;
+
+}
+.cards-team .card .card-text span:last-child{
+    color: rgb(255, 255, 255,0.5);
+    text-align: right;
+    
+}
+
+
+@media(max-width:800px) { 
+    .cards-team{
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+}
