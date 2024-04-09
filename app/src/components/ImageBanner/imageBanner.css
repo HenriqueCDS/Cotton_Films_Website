@@ -2,11 +2,20 @@
     margin: 4.9rem 0;
     background-image: url(../../assets/imageBanner.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+
     width: 100%;
     max-width:100vw;
     height: 27.625rem;
     
 }
+@media(max-width:400px) { 
+    .image-banner{
+       
+        height: 10rem;
+        
+    }
+}
+
 

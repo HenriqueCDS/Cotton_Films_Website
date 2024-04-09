@@ -101,6 +101,7 @@
     font-size: 1.25rem;
     line-height: 150%;
     letter-spacing: -4%;
+    text-indent:4rem
     
 }
 
@@ -132,8 +133,36 @@
         text-align: center;
         line-height: 150%;  
         letter-spacing: -4%;
-        
+        text-indent:0;
     }
  
    
 }   
+
+
+@media(max-width:400px) { 
+    .mid-card .card{
+        position: relative;
+        
+        height:  8rem;
+        width: 5rem;
+       
+      
+    } 
+    .bot{
+        margin-top: 3.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .bot .text{   
+        padding: 1rem;
+        font-size:0.7rem;
+        text-align: center;
+        letter-spacing: -4%;
+        
+    }
+}
+
+

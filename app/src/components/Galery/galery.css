@@ -50,3 +50,25 @@
         height:auto;
     }
 }
+
+@media(max-width: 991px) {
+    .galery .top .image-logo img{
+      height:8rem;
+     
+    }
+ 
+    .swiper {
+        width:90vw;
+        height: 100%;
+    }
+    .galery .top .image-logo{
+        width: 100%;
+        max-width:auto;
+
+    }
+    .galery .carrousel .image-carrousel{
+        width: 100%;
+        max-width:auto;
+        height:auto;
+    }
+}

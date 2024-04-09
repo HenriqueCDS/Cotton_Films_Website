@@ -1,0 +1,109 @@
+.about{
+    margin-top: 4.9375rem;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 49% 51%;
+    position: relative;
+}
+.about .about-image{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/aboutBannerImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.about .about-image .textbar-span{
+    position: absolute;
+    top:5rem ;
+    left:18rem;
+}
+
+.about .about-image .textbar-about{
+    display: flex;
+    gap:1rem;
+    margin-left: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+
+}
+.about .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.about .about-text .about-img{
+   position: absolute; 
+   
+   top:0.5rem;
+   left: 37%;
+}
+.about .about-text .text{
+    width: 30rem;
+}
+.about .about-text .text-links{
+    position: absolute;
+    display: flex;
+    gap:.9375rem;
+    bottom: 2rem;
+  
+    
+}
+.about .about-text .text-links .link{
+    display: flex;
+    gap: .5rem;
+    color: rgb(255, 255, 255,0.5);
+    padding-bottom: .375rem; 
+    border-bottom: solid .0625rem ;
+    line-height: 120%;
+    letter-spacing: -2%;
+}
+
+
+@media(max-width: 800px) {
+    .about{
+        grid-template-columns:60% 40%;
+  
+    }
+    .about .about-image{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-image: url(../../assets/aboutBannerImg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .about .about-image .textbar-span{
+        left:9rem;
+        top:3rem
+    }
+    .about .about-text .about-img{
+        left: 20rem;
+        height: 8rem;
+        width: 8rem;
+    
+    }
+    
+    .about .about-image .textbar-about{
+        flex-direction: column;
+    }
+    .about .about-text .text-links .link{
+        font-size: 0.5rem;
+    }
+
+  
+     .about .about-text .text{
+      
+         width:10rem;
+       
+         font-size: 0.8rem;
+     }
+}
