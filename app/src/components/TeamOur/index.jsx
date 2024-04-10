@@ -1,9 +1,10 @@
-import "./TeamOur.css"
+import "./TeamOur.css";
 import logo from "../../assets/logo-ourTeam.png";
 import img1 from "../../assets/ourTeamImg1.png";
 import img2 from "../../assets/ourTeamImg2.png";
 import img3 from "../../assets/ourTeamImg3.png";
 import img4 from "../../assets/ourTeamImg4.png";
+import icon from  "../../assets/ourTeamIcon.svg";
 export default function TeamOur() {
     return (
         <section className="grid">
@@ -48,9 +49,17 @@ export default function TeamOur() {
                     </div> 
                 </div>
 
-                <div  className="ourTeam-logo">
-                    <img  src={logo} />
+                <div className="ourTeam-bot">
+                    <div className="ourTeam-logo">
+                        <img  src={logo} />
+                    </div>
+                    <div className="ourTeam-icon">
+                        <img src={icon} />
+                    </div>
+                    
                 </div>
+
+              
             </div>
         </section>
     )

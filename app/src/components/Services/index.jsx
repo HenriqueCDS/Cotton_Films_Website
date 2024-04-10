@@ -17,27 +17,27 @@ export default function Services() {
                     </div>
                     <div className="mid">
                         <div className="table-selection">
-                        <div className="seletor" >
+                            <div className="seletor" >
+                                <span>// NAME OF SERVICE</span>
+                                <span>01</span>
+                                <img src={buttonright}/>
+                            </div>
+                            <div className="seletor">
+                                <span>// NAME OF SERVICE</span>
+                                <span>02</span>
+                                <img src={buttonright}/>
+                            </div>
+                            <div className="seletor">
+                                <span>// NAME OF SERVICE</span>
+                                <span>03</span>
+                                <img src={buttonright}/>
+                            </div>
+                            <div className="seletor">
                             <span>// NAME OF SERVICE</span>
-                            <span>01</span>
-                            <img src={buttonright}/>
+                                <span>04</span>
+                                <img src={buttonright}/>
+                            </div>         
                         </div>
-                        <div className="seletor">
-                             <span>// NAME OF SERVICE</span>
-                            <span>02</span>
-                            <img src={buttonright}/>
-                        </div>
-                        <div className="seletor">
-                            <span>// NAME OF SERVICE</span>
-                            <span>03</span>
-                            <img src={buttonright}/>
-                        </div>
-                        <div className="seletor">
-                        <span>// NAME OF SERVICE</span>
-                            <span>04</span>
-                            <img src={buttonright}/>
-                        </div>         
-                    </div>
                     </div>
 
                     <div className="mid-card">

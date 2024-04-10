@@ -6,9 +6,8 @@ import img2 from "../../assets/galeryImage2.png";
 import img3 from "../../assets/galeryImage3.png";
 import buttonleft from "../../assets/Galerybutleft.svg";
 import buttonright from "../../assets/Galerybutright.svg";
-
-
 import { Swiper,useSwiper, SwiperSlide } from "swiper/react";
+
 
 import "swiper/css";
 
@@ -19,12 +18,13 @@ export default function Galery() {
     return (
         <section className="galery">
             <div className="grid">
-            <div className="top">
+                <div className="top">
                     <div className="image-logo">
                         <img src={logo} />
                     </div>
-                    <div className="buttons">
-                        <button onClick= {() => swiper.slidePrev()}> <img src={buttonleft} /></button>
+                    <div className="top-button">
+                        <button onClick={()=>{swiper.slidePrev()}}><img src={buttonleft}/></button>
+                        <button><img src={buttonright}/></button>
                     </div>
                 </div>
               

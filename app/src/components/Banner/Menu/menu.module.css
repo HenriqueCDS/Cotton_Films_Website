@@ -39,7 +39,7 @@ li {
   margin: 0;
 }
 
-button {
+.menu button {
   outline: none;
   border: none;
   cursor: pointer;

@@ -8,6 +8,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
 
 a {
   font-weight: 500;
@@ -20,6 +26,7 @@ a {
   width: 100%;
   max-width: 1246px;
   margin: 0 auto;
+
 }
 body {
   margin: 0;
@@ -36,7 +43,7 @@ h1 {
 
 img {
   max-width: 100%;
-  display: "block"
+  display: "block";
 }
   
 @font-face {

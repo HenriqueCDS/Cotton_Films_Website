@@ -16,12 +16,18 @@
     font-family:  Helvetica, sans-serif;
 
 }
+
+
 .cards-team .card .card-text span:last-child{
     color: rgb(255, 255, 255,0.5);
     text-align: right;
     
 }
-
+.our-team .ourTeam-bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
 
 @media(max-width:800px) { 
     .cards-team{
