@@ -10,17 +10,17 @@ export default function TeamOur() {
         <section className="grid">
             <div className="our-team">
                 <div className="cards-team">
-                    <div className="card">
+                    <div className="card"  data-aos="fade-down" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img1} />
                         </div>
-                        <div className="card-text">
+                        <div className="card-text" >
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
                         </div>
                       
                     </div> 
-                    <div className="card">
+                    <div className="card" data-aos="fade-up" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img2} />
                         </div>
@@ -29,7 +29,7 @@ export default function TeamOur() {
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
                         </div>
                     </div> 
-                    <div className="card">
+                    <div className="card"  data-aos="fade-down" data-aos-duration="2500"> 
                         <div className="card-image">
                             <img  src={img3} />
                         </div>
@@ -38,7 +38,7 @@ export default function TeamOur() {
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
                         </div>
                     </div> 
-                    <div className="card">
+                    <div className="card" data-aos="fade-up" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img4} />
                         </div>
@@ -50,10 +50,10 @@ export default function TeamOur() {
                 </div>
 
                 <div className="ourTeam-bot">
-                    <div className="ourTeam-logo">
+                    <div className="ourTeam-logo" data-aos="fade-right" data-aos-duration="2500">
                         <img  src={logo} />
                     </div>
-                    <div className="ourTeam-icon">
+                    <div className="ourTeam-icon" data-aos="fade-left" data-aos-duration="2500">
                         <img src={icon} />
                     </div>
                     

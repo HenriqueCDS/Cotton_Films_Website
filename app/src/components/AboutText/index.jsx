@@ -5,7 +5,7 @@ export default function AboutText() {
         <section className='container-about'>
             <div className='grid'>
                 <div className="group">
-                    <div className="text">
+                    <div className="text" data-aos = "fade-right">
                         <p>
                             Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. Sed a <span>luctus metus.
@@ -15,7 +15,7 @@ export default function AboutText() {
                         </p>
                     </div>
 
-                    <div className="image">
+                    <div className="image" data-aos = "fade-left">
                         <img src={img} alt="About Image" />
                     </div>
                 

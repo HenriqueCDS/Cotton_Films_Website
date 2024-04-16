@@ -5,7 +5,7 @@ export default function About() {
     return(
         <section className="about">
                
-                    <div className="about-image">
+                    <div className="about-image" data-aos="fade-right" data-aos-duration="2500">
                             <div className="textbar-span">
                                 <span>2024®</span>
                             </div>
@@ -18,11 +18,11 @@ export default function About() {
                             </div>
                         </div>
                     
-                    <div className="about-text">
-                        <div className="about-img">
+                    <div className="about-text" >
+                        <div className="about-img" data-aos="fade-down" data-aos-duration="2500">
                             <img src={logo} />
                         </div>
-                        <div className="text">
+                        <div className="text"  data-aos="fade-left" data-aos-duration="2500">
                             <p>
                             Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit. Sed a luctus metus. 

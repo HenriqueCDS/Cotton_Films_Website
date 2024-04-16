@@ -7,17 +7,22 @@ export default function name(props) {
     return (
         <section className='container'>
                 <nav className='navbar'>
-                    <div className='title'>
+                    <div className='title' data-aos="fade-up" >
                         <a>CTTN<span>©</span></a>
                     </div>
                     <Menu></Menu>
                 </nav>
                 <div className='image-logo'>
-                <img data-aos="fade-up" className='logo' src={logo} />
+                <img data-aos="fade-up" data-aos-duration="1000" className='logo' src={logo} />
                 </div>
                 
                 
                 <div className='table-selection'>
+                    <div className='seletor'  >
+                        <span>CTTN</span>
+                        <span>©</span>
+                        <span>[2023]</span>
+                    </div>
                     <div className='seletor' >
                         <span>CTTN</span>
                         <span>©</span>
@@ -28,12 +33,7 @@ export default function name(props) {
                         <span>©</span>
                         <span>[2023]</span>
                     </div>
-                    <div className='seletor'>
-                        <span>CTTN</span>
-                        <span>©</span>
-                        <span>[2023]</span>
-                    </div>
-                    <div className='seletor'>
+                    <div className='seletor' >
                         <span>CTTN</span>
                         <span>©</span>
                         <span>[2023]</span>

@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 }
-.galery .top .top-button{
-    display: flex;
-  
+.galery .top-button{
+    display: flex;  
+   
 }
 
 .galery .top .image-logo{
@@ -22,6 +22,7 @@
     width: 100%;
     max-width:28.22375rem;
     height: 34.875rem;
+    transition: ease 1s;
 }
 
 .swiper {
@@ -83,4 +84,10 @@
         max-width:auto;
         height:auto;
     }
+}
+
+
+.galery .carrousel .image-carrousel:hover{
+    transform: scale(120%);
+
 }
