@@ -64,3 +64,10 @@
       flex-direction: flex;
    }
 }
+
+@media(max-width: 1366px) {
+   .footer{
+       overflow-x: hidden;
+   }
+ 
+}

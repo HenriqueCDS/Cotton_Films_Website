@@ -45,7 +45,7 @@ img {
   max-width: 100%;
   display: "block";
 }
-  
+
 @font-face {
   font-family: 'Satoshi';
   src: local('Satoshi'), url('../Fonts/WEB/fonts/Satoshi-Regular.woff') format('woff');

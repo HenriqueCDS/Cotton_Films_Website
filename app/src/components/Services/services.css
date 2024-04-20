@@ -167,3 +167,9 @@
 }
 
 
+@media(max-width: 1366px) {
+    .sevices{
+        overflow-x: hidden;
+    }
+  
+}

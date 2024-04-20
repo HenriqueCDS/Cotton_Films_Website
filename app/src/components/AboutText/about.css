@@ -70,3 +70,10 @@
     
      
 }
+
+@media(max-width: 1366px) {
+    .container-about{
+        overflow-x: hidden;
+    }
+  
+}

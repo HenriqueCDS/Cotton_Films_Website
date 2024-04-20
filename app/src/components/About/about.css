@@ -64,7 +64,12 @@
     line-height: 120%;
     letter-spacing: -2%;
 }
-
+@media(max-width: 1366px) {
+    .about{
+        overflow-x: hidden;
+    }
+  
+}
 
 @media(max-width: 800px) {
     .about{

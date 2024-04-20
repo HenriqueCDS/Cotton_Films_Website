@@ -35,3 +35,11 @@
         justify-content:center ;
     }
 }
+
+
+@media(max-width: 1366px) {
+    .our-team{
+        overflow-x: hidden;
+    }
+  
+}
