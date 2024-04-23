@@ -16,7 +16,16 @@
      max-width: 21.5rem;
      right: 5rem;
      top: 1rem;
+     z-index: 100;
 } 
+
+.image-services img {
+    transition: opacity 2s ease; 
+  }
+  
+  .table-selection .seletor:hover {
+    cursor: pointer; 
+  }
 
 
 
@@ -37,14 +46,15 @@
     justify-content: space-between;
     padding: 1.25rem 0rem;
     border-bottom: solid 1px rgb(255, 255, 255, 0.25);
-    color:rgb(255, 255, 255, 0.25) ;    
+    color:rgb(255, 255, 255, 0.25) ;   
+    transition: ease 1s; 
 }
 .sevices .mid .table-selection img{
     height: 1.25rem;
     max-width:  1.25rem;
 
 }
-.sevices .mid .table-selection  .seletor:first-child{
+.sevices .mid .table-selection  .seletor:hover{
     border-bottom: solid 1px rgb(255, 255, 255);
     color:rgb(255, 255, 255) ;
 
@@ -71,6 +81,7 @@
     justify-content: space-between;
     padding:5rem;
     border: solid 1px rgb(255, 255, 255,0.25);
+    border-image: linear-gradient(#333333, rgba(0, 0, 0, 0)) 27;
     border-bottom:none;
 }
 .mid-card .top-card{
@@ -111,6 +122,7 @@
         width: 30%;
         right: 2rem;
         top: 3rem;
+     
     
    } 
    .sevices .top .image-logo {

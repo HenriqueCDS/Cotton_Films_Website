@@ -16,7 +16,7 @@ export default function Footer() {
                         <span><b>Arthur Medeiros</b></span>
                     
                     </div>
-                    <div className="footer-textbar" data-aos="fade-down-left" data-aos-duration="2500">
+                    <div className="footer-textbar" data-aos="fade-left" data-aos-duration="2500">
                         <span ><b>CTTN©</b></span>
                         <div className="footer-link" >
                         

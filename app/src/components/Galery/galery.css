@@ -88,7 +88,8 @@
 
 .galery .carrousel .image-carrousel:not(:hover){
     transform: scale(90%);
-    opacity: 0.6;
+    filter: blur(1px);
    
+
 
 }
