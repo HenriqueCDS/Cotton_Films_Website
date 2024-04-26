@@ -45,7 +45,11 @@
  
  .footer-textbar .footer-link ul li {  
     border-bottom: 0.1px solid rgb(255, 255, 255,0.25);
+    transition: 1s ease;
  }
+ .footer-textbar .footer-link ul li:hover{  
+   border-bottom: 0.1px solid rgb(255, 255, 255);
+}
  .footer-textbar .footer-link ul li:first-child {  
     border-bottom: none;
  }

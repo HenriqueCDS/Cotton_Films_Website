@@ -51,7 +51,9 @@
     position: absolute;
     display: flex;
     gap:.9375rem;
-    bottom: 2rem;
+   
+    
+
   
     
 }
@@ -64,6 +66,14 @@
     line-height: 120%;
     letter-spacing: -2%;
 }
+.about .about-text .text-links .link:hover{
+
+    cursor: pointer;
+}
+
+
+
+
 @media(max-width: 1366px) {
     .about{
         overflow-x: hidden;
@@ -104,6 +114,8 @@
          width:10rem;
          font-size: 0.8rem;
      }
+
+    
 }
 @media(max-width: 400px) {
 
