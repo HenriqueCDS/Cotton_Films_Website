@@ -1,5 +1,6 @@
 .container-about{
     padding:  4.9375rem 0rem;
+    
 }
 
 
@@ -24,7 +25,7 @@
     letter-spacing: -4%;
     font-weight: 400;
     font-family:  Helvetica, sans-serif;
-    text-indent:4rem
+    
 
 }
 
@@ -36,6 +37,21 @@
     max-width: 28.25rem;
    
  }
+
+
+
+ &:nth-of-type(1) {
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+&:nth-of-type(3) {
+    background: #ffff00;
+}
+
+&:nth-of-type(4) {
+    background: rgb(29, 29, 29);
+    color: rgb(255, 251, 0);
+}
 
 
  @media(max-width: 991px) {
@@ -55,7 +71,7 @@
         line-height: 100%;
         letter-spacing: -4%;
         font-weight: 400;
-       
+        font-size: clamp(2rem, 5vw, 8rem);
     
     }
     .group .text .p span{
