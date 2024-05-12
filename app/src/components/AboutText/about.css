@@ -67,7 +67,7 @@
     }
   
     .group .text p{
-        font-size: 1rem;
+   
         line-height: 100%;
         letter-spacing: -4%;
         font-weight: 400;
@@ -92,4 +92,12 @@
         overflow-x: hidden;
     }
   
+}
+@media(max-width: 600px) {
+
+    .group .text p{
+        font-size: 1.4rem;
+        flex-direction: column;
+    
+    }
 }
