@@ -33,6 +33,7 @@
     position: absolute;
     transition: opacity ease 1s;
     opacity: 0;
+    cursor: pointer;
 }
 .swiper {
     width: 98%;

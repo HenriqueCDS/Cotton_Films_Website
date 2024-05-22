@@ -22,9 +22,9 @@ export default function Footer() {
                         
                           <ul>
                              <li><img src={arrowContact}/>CONTACT</li>
-                             <li><img src={arrow}/><a>INSTRAGRAM</a></li>
-                             <li><img src={arrow}/><a>SAVVE</a></li>
-                             <li><img src={arrow}/><a>DRIBBBLE</a></li>
+                             <li><img src={arrow} className="arrow"/><a>INSTRAGRAM</a></li>
+                             <li><img src={arrow} className="arrow"/><a>SAVVE</a></li>
+                             <li><img src={arrow} className="arrow"/><a>DRIBBBLE</a></li>
                           </ul>
 
                         </div>

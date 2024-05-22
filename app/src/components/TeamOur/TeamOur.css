@@ -4,8 +4,40 @@
 .cards-team{
     width: 100%;
     display: flex;
+
     gap: 1rem;
     margin-bottom: 8rem;
+   
+}
+.cards-team .card{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+   
+}
+.cards-team .card .card-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  ease-out 1s;
+  
+}
+.cards-team .card .card-image .verBio{
+    position: absolute;
+    transition: opacity ease-out 1s;
+    opacity: 0;
+    cursor: pointer;
+}
+.cards-team .card:not(:hover) .card-image{
+    transform: scale(95%);
+    
+}
+.cards-team .card .card-image:hover .verBio{
+    opacity: 1;
+    
 }
 .cards-team .card .card-text{
     display: flex;

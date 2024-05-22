@@ -5,6 +5,7 @@ import img2 from "../../assets/ourTeamImg2.png";
 import img3 from "../../assets/ourTeamImg3.png";
 import img4 from "../../assets/ourTeamImg4.png";
 import icon from  "../../assets/ourTeamIcon.svg";
+import verBio from "../../assets/verBio.svg";
 export default function TeamOur() {
     return (
         <section className="grid">
@@ -13,35 +14,43 @@ export default function TeamOur() {
                     <div className="card"  data-aos="fade-down" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img1} />
+                            <a className="verBio" href="#"><img src={verBio} /></a>
                         </div>
                         <div className="card-text" >
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
-                            
+                           
                         </div>
-                      
                     </div> 
+
                     <div className="card" data-aos="fade-up" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img2} />
+                            <a className="verBio" href="#"><img src={verBio} /></a>
                         </div>
                         <div className="card-text">
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
                         </div>
                     </div> 
-                    <div className="card"  data-aos="fade-down" data-aos-duration="2500"> 
+
+                    <div className="card"  data-aos="fade-down" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img3} />
+                            <a className="verBio" href="#"><img src={verBio} /></a>
                         </div>
-                        <div className="card-text">
+                        <div className="card-text" >
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
+                           
                         </div>
                     </div> 
+
                     <div className="card" data-aos="fade-up" data-aos-duration="2500">
                         <div className="card-image">
                             <img  src={img4} />
+                            <a className="verBio" href="#"><img src={verBio} /></a>
+
                         </div>
                         <div className="card-text">
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
