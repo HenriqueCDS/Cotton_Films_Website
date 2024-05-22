@@ -19,12 +19,21 @@
 }
 
 .galery .carrousel .image-carrousel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width:28.22375rem;
     height: 34.875rem;
-    transition: ease 1s;
+    transition:  ease 1s;
+   
 }
-
+.galery .carrousel .image-carrousel .verCase{
+    position: absolute;
+    transition: opacity ease 1s;
+    opacity: 0;
+}
 .swiper {
     width: 98%;
     height: 100%;
@@ -89,7 +98,7 @@
 .galery .carrousel .image-carrousel:not(:hover){
     transform: scale(90%);
     filter: blur(1px);
-   
-
-
+}
+.galery .carrousel .image-carrousel:hover .verCase{
+    opacity: 1;
 }

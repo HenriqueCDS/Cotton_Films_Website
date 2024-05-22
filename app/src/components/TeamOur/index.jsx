@@ -17,6 +17,7 @@ export default function TeamOur() {
                         <div className="card-text" >
                             <span>NAME OF PROJECT<br/>(2023 ‘.02)</span>
                             <span>DIRECT BY <br/>ARTHUR MEDEIROS</span>
+                            
                         </div>
                       
                     </div> 

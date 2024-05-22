@@ -4,7 +4,7 @@ import logo from "../../assets/galeryLogo.png";
 import img1 from "../../assets/galeryImage1.png";
 import img2 from "../../assets/galeryImage2.png";
 import img3 from "../../assets/galeryImage3.png";
-
+import verCase from "../../assets/verCase.svg";
 import { Swiper,useSwiper, SwiperSlide} from "swiper/react";
 import { A11y,Navigation, Pagination } from 'swiper/modules';
 
@@ -34,35 +34,41 @@ export default function Galery() {
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img1} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img2} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img3} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img1} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img2} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <div className="image-carrousel">
                                 <img src={img3} />
+                                <a className="verCase" href="#"><img src={verCase} /></a>
                             </div>
                         </SwiperSlide>         
                     </Swiper>
