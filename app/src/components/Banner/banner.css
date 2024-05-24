@@ -15,6 +15,21 @@
     align-items: center;
 }
 
+.video-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+  }
+  
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
 .container .navbar{
     margin: 1rem;
    
@@ -28,7 +43,7 @@
 .container .navbar .title{
     margin: 1rem;
     font-size: 0.5rem;
-
+    
 }
 
 
@@ -37,6 +52,7 @@
     width: 100%;
     max-width: 80rem;
     max-height: 14rem;
+    z-index: 10;
  
     
 }
@@ -46,9 +62,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+   
     width: 100%;
     max-width: 86rem;
+    z-index: 10;   
     
 }
 .container .table-selection  .seletor{
@@ -57,15 +74,22 @@
     justify-content: space-between;
     border-bottom: solid 1px rgb(255, 255, 255, 0.25);
     color:rgb(255, 255, 255, 0.25) ;
+    transition: 1s ease-in-out ;
   
     
     
 }
-.container .table-selection  .seletor:first-child{
+.container .table-selection  .seletor:hover {
     border-bottom: solid 1px rgb(255, 255, 255);
-    color:rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255);
+  }
+  
+.container .table-selection  .seletor.selected  {
+    
 
-}
+    border-bottom: solid 1px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
 @media(max-width: 1280px) { 
     .container{
         width: 100%;
