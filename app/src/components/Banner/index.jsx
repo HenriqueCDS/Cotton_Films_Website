@@ -17,7 +17,7 @@ export default function name(props) {
     function handlebanner(banner){
         setBanner(banner);
         setSelectedBanner(banner);
-        console.log(banner);
+       
     }; 
 
     return (
