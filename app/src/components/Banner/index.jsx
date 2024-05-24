@@ -23,7 +23,7 @@ export default function name(props) {
     return (
         <section className='container'>
                 <div className="video-container">
-                    <video className="video-element" src={banner}  autoPlay loop />
+                    <video className="video-element" src={banner} autoPlay loop muted />
                     
                 </div>
 
