@@ -32,8 +32,6 @@
 }
 .footer-span{
    align-self:flex-end;
-
-
 }
 
 .footer-textbar{
@@ -80,5 +78,4 @@
    .footer{
        overflow-x: hidden;
    }
- 
 }

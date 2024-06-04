@@ -6,10 +6,30 @@ import img3 from "../../assets/ourTeamImg3.png";
 import img4 from "../../assets/ourTeamImg4.png";
 import icon from  "../../assets/ourTeamIcon.svg";
 import verBio from "../../assets/verBio.svg";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 export default function TeamOur() {
+    let component = useRef();
+
+    useEffect(() => {
+      let ctx = gsap.context(() => {
+        gsap.to(".grid", {
+          scrollTrigger: {
+            trigger: ".ourTeam",
+            start: "top top",
+            pin: true,
+            pinSpacing: false,
+  
+          }
+        });
+      }, component); // <- selector scoping
+      return () => ctx.revert();
+    }, []);
+    gsap.registerPlugin(ScrollTrigger);
     return (
-        <section className="grid">
-            <div className="our-team">
+        <section className="grid" ref={component}>
+            <div className="ourTeam">
                 <div className="cards-team">
                     <div className="card"  data-aos="fade-down" data-aos-duration="2500">
                         <div className="card-image">
@@ -68,8 +88,6 @@ export default function TeamOur() {
                     </div>
                     
                 </div>
-
-              
             </div>
         </section>
     )

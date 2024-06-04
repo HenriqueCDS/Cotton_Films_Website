@@ -2,11 +2,15 @@ import "./footer.css";
 import logo from "../../assets/logoFooter.png";
 import arrowContact from "../../assets/arrowContact.svg";
 import arrow from "../../assets/arrow.svg";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function Footer() {
+    
     return(
         <footer>
-            <div className="footer">
+            <div className="footer" >
                 <div className="image-logo" data-aos="fade-up" data-aos-duration="2500">
                     <img src={logo}/>
                 </div>

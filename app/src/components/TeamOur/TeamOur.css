@@ -1,4 +1,4 @@
-.our-team {
+.ourTeam{
     padding-top: 4.9375rem;
 }
 .cards-team{
@@ -48,14 +48,12 @@
     font-family:  Helvetica, sans-serif;
 
 }
-
-
 .cards-team .card .card-text span:last-child{
     color: rgb(255, 255, 255,0.5);
     text-align: right;
     
 }
-.our-team .ourTeam-bot{
+.ourTeam .ourTeam-bot{
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -67,7 +65,6 @@
         justify-content:center ;
     }
 }
-
 
 @media(max-width: 1366px) {
     .our-team{
