@@ -1,12 +1,12 @@
 import './banner.css';
 import url from '../../assets/pexels-cottonbro.png';
-
+import Menu from './Menu/index.jsx'
 import video1 from '../../assets/video3.mp4';
 import video2 from '../../assets/video2.mp4';
 import video3 from '../../assets/video1.mp4';
 import video4 from '../../assets/video4.mp4';
 import logo from '../../assets/logo.png';
-import Menu from './Menu';
+
 import { useState } from 'react';
 export default function name(props) {
 
@@ -32,7 +32,8 @@ export default function name(props) {
                     <div className='title' data-aos="fade-up" >
                         <a>CTTN<span>©</span></a>
                     </div>
-                    <Menu></Menu>
+                    <Menu />
+                    
                 </nav>
                 <div className='image-logo'>
                 <img data-aos="fade-up" data-aos-duration="1000" className='logo' src={logo} />
